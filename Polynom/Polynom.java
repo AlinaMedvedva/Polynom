@@ -115,7 +115,7 @@ public class Polynom {
         return integral(c).calculation(b) - integral(c).calculation(a);
     }
 
-    //суммы дарбу и т.п.
+    //сумма Римана
     public double summ_rim(double a, double b, double dist){ //отрезок [a, b] с разбиением dist
         double st = a;
         double sum = 0;
