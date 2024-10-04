@@ -14,7 +14,7 @@ public class Main {
         System.out.println(first);
         System.out.println("Integral (first)");
         System.out.println(in);
-        System.out.println("Derivate(first)");
+        System.out.println("Derivate (first)");
         System.out.println(der);
         double p;
         System.out.println("Ошибка получения коэфициента индекса 6 из полинома степени 4");
