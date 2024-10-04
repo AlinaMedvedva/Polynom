@@ -37,6 +37,7 @@ public class Polynom {
         }
     }
 
+    //получение коэффициента по индексу
     public double get_koeff(int index) throws MyException{
         if(index >= koeff.size()){
             throw new MyException("Полином меньше степени вводимого коэффициента");
@@ -44,6 +45,7 @@ public class Polynom {
         else return koeff.get(index);
     }
 
+    //установка коэффициента по индексу
     public void set_koeff(int index, double num) throws MyException{
         if(index >= koeff.size()){
             throw new MyException("Полином меньше степени вводимого коэффициента");
